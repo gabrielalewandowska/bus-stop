@@ -55,7 +55,7 @@ namespace bus_lab
         [Test()]
         public void TestBusHasPassengersArray()
         {
-            Assert.AreEqual(20, bus1.Passengers.Length);
+            Assert.AreEqual(0, bus1.Passengers.Count);
         }
 
         [Test()]
